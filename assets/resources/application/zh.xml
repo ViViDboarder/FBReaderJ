@@ -560,6 +560,10 @@
 				<node name="summaryOn" value="连续拍触屏幕两次显示对话框/菜单"/>
 				<node name="summaryOff" value="忽略连续拍触动作"/>
 			</node>
+			<node name="dpadTurn" value="Turn page with the DPad">
+				<node name="summaryOn" value="Use the DPad to turn the pages"/>
+				<node name="summaryOff" value="Keep the DPad for cursor for sound"/>
+			</node>
 			<node name="volumeKeys" value="音量键滚动">
 				<node name="summaryOn" value="使用音量键翻页"/>
 				<node name="summaryOff" value="音量键仅用于声音"/>

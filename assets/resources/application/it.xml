@@ -561,6 +561,10 @@
 				<node name="summaryOn" value="Doppio tocco abilita menu di navigazione"/>
 				<node name="summaryOff" value="Ignora doppio tocco"/>
 			</node>
+			<node name="dpadTurn" value="Turn page with the DPad">
+				<node name="summaryOn" value="Use the DPad to turn the pages"/>
+				<node name="summaryOff" value="Keep the DPad for cursor for sound"/>
+			</node>
 			<node name="volumeKeys" value="Tasti del volume per lo scorrimento">
 				<node name="summaryOn" value="Usa i tasti del volume per scorrere"/>
 				<node name="summaryOff" value="Lascia i tasti del volume per la regolazione del suono"/>

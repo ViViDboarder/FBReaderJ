@@ -575,6 +575,10 @@
 				<node name="summaryOn" value="По двойному нажатию открывать диалог перемещения/меню"/>
 				<node name="summaryOff" value="Игнорировать двойные нажатия"/>
 			</node>
+			<node name="dpadTurn" value="Turn page with the DPad">
+				<node name="summaryOn" value="Use the DPad to turn the pages"/>
+				<node name="summaryOff" value="Keep the DPad for cursor for sound"/>
+			</node>
 			<node name="volumeKeys" value="Использовать кнопки регулировки звука">
 				<node name="summaryOn" value="Кнопки увеличения/уменьшения звука перелистывают страницы"/>
 				<node name="summaryOff" value="Кнопки увеличения/уменьшения звука работают как обычно"/>

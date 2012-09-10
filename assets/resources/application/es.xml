@@ -563,6 +563,10 @@
 				<node name="summaryOn" value="Doble pulsación para navegar por los diálogos o menú"/>
 				<node name="summaryOff" value="Ignorar la doble pulsación"/>
 			</node>
+			<node name="dpadTurn" value="Turn page with the DPad">
+				<node name="summaryOn" value="Use the DPad to turn the pages"/>
+				<node name="summaryOff" value="Keep the DPad for cursor for sound"/>
+			</node>
 			<node name="volumeKeys" value="Pasar de página con botones de volumen">
 				<node name="summaryOn" value="Usar los botones de volumen para pasar de página"/>
 				<node name="summaryOff" value="Mantener los botones de volumen para el audio"/>

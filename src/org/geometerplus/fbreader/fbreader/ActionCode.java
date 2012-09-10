@@ -50,6 +50,8 @@ public interface ActionCode {
 
 	String VOLUME_KEY_SCROLL_FORWARD = "volumeKeyScrollForward";
 	String VOLUME_KEY_SCROLL_BACK = "volumeKeyScrollBackward";
+	String DPAD_SCROLL_FORWARD = "dpadScrollForward";
+	String DPAD_SCROLL_BACK = "dpadScrollBackward";
 	String SHOW_MENU = "menu";
 	String SHOW_NAVIGATION = "navigate";
 

@@ -560,6 +560,10 @@
 				<node name="summaryOn" value="Double tap to run navigation dialog/menu" toBeTranslated="true"/>
 				<node name="summaryOff" value="Ignore double taps" toBeTranslated="true"/>
 			</node>
+			<node name="dpadTurn" value="Turn page with the DPad">
+				<node name="summaryOn" value="Use the DPad to turn the pages"/>
+				<node name="summaryOff" value="Keep the DPad for cursor for sound"/>
+			</node>
 			<node name="volumeKeys" value="Cuộn bằng phím âm lượng">
 				<node name="summaryOn" value="Dùng phím âm lượng để cuộn"/>
 				<node name="summaryOff" value="Giữ phím âm lượng cho âm thanh"/>

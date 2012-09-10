@@ -560,6 +560,10 @@
 				<node name="summaryOn" value="Dupla érintés a navigációhoz/menühöz"/>
 				<node name="summaryOff" value="Dupla érintések figyelmen kívül hagyása"/>
 			</node>
+			<node name="dpadTurn" value="Turn page with the DPad">
+				<node name="summaryOn" value="Use the DPad to turn the pages"/>
+				<node name="summaryOff" value="Keep the DPad for cursor for sound"/>
+			</node>
 			<node name="volumeKeys" value="Lapozás a hangerő gombokkal">
 				<node name="summaryOn" value="Hangerő gombok használata lapozáshoz"/>
 				<node name="summaryOff" value="A hangerő gombok a hangerőt állítják"/>

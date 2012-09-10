@@ -570,6 +570,10 @@
 				<node name="summaryOn" value="Dobbeltrykk for å åpne navigasjonsdialog/meny"/>
 				<node name="summaryOff" value="Ignorer dobbeltrykk"/>
 			</node>
+			<node name="dpadTurn" value="Turn page with the DPad">
+				<node name="summaryOn" value="Use the DPad to turn the pages"/>
+				<node name="summaryOff" value="Keep the DPad for cursor for sound"/>
+			</node>
 			<node name="volumeKeys" value="Bla om med volumknappene">
 				<node name="summaryOn" value="Bruk volumknappene til å bla om sidene"/>
 				<node name="summaryOff" value="Behold volumknappene til lyd"/>

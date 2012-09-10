@@ -564,6 +564,10 @@
 				<node name="summaryOn" value="Doppeltes Antippen öffnet Navigationsmenü."/>
 				<node name="summaryOff" value="Ignoriere doppeltes Antippen."/>
 			</node>
+			<node name="dpadTurn" value="Turn page with the DPad">
+				<node name="summaryOn" value="Use the DPad to turn the pages"/>
+				<node name="summaryOff" value="Keep the DPad for cursor for sound"/>
+			</node>
 			<node name="volumeKeys" value="Lautstärketasten">
 				<node name="summaryOn" value="Lautstärketasten zum Umblättern verwenden."/>
 				<node name="summaryOff" value="Lautstärketasten nicht verwenden."/>

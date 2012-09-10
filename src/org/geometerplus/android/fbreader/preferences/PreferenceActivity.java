@@ -349,6 +349,28 @@ public class PreferenceActivity extends ZLPreferenceActivity {
 		scrollingScreen.addOption(scrollingPreferences.FingerScrollingOption, "fingerScrolling");
 		scrollingScreen.addOption(fbReader.EnableDoubleTapOption, "enableDoubleTapDetection");
 
+		final ZLPreferenceSet dpadPreferences = new ZLPreferenceSet();
+		scrollingScreen.addPreference(new ZLCheckBoxPreference(
+			this, scrollingScreen.Resource, "dpadTurn"
+		) {
+			{
+				setChecked(fbReader.hasActionForKey(KeyEvent.KEYCODE_DPAD_RIGHT, false));
+			}
+
+			@Override
+			protected void onClick() {
+				super.onClick();
+				if (isChecked()) {
+					keyBindings.bindKey(KeyEvent.KEYCODE_DPAD_RIGHT, false, ActionCode.VOLUME_KEY_SCROLL_FORWARD);
+					keyBindings.bindKey(KeyEvent.KEYCODE_DPAD_LEFT, false, ActionCode.VOLUME_KEY_SCROLL_BACK);
+				} else {
+					keyBindings.bindKey(KeyEvent.KEYCODE_DPAD_RIGHT, false, FBReaderApp.NoAction);
+					keyBindings.bindKey(KeyEvent.KEYCODE_DPAD_LEFT, false, FBReaderApp.NoAction);
+				}
+				dpadPreferences.setEnabled(isChecked());
+			}
+		});
+
 		final ZLPreferenceSet volumeKeysPreferences = new ZLPreferenceSet();
 		scrollingScreen.addPreference(new ZLCheckBoxPreference(
 			this, scrollingScreen.Resource, "volumeKeys"
